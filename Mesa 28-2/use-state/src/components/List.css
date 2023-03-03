@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divAgregar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.divAgregar input { text-align: center}
+
+.divAgregar button { width: 50%; align-self: center;}
+
+
+
+ul li{
+    list-style: none;
+}

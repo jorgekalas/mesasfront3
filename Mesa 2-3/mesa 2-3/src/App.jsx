@@ -1,12 +1,11 @@
 import './App.css'
-import List from './components/List'
+import Formulario from './components/Formulario'
 
 function App() {
 
-
   return (
     <div className="App">
-        <List />
+      <Formulario />
     </div>
   )
 }

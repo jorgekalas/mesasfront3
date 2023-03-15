@@ -1,0 +1,13 @@
+li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.detenerPedidosButton{
+    margin-bottom: 1rem;
+}

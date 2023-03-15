@@ -4,7 +4,7 @@ import './PedidosYa.css'
 const PedidosYa = () => {
     const [pedidos, setPedidos] = useState([]);
     const [detenerPedidos, setDetenerPedidos] = useState(false);
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(1);
 
     useEffect(()=>{
         if(!detenerPedidos){

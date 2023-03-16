@@ -35,11 +35,13 @@ function App() {
   return (
     <div className="App">
       <h1>Chistes</h1>
-      <button onClick={onGeneralClick}>Chistes generales</button>
-      <button onClick={onProgrammingClick}>Chistes de programación</button>
+      <div className="buttons">
+        <button onClick={onGeneralClick}>Chistes generales</button>
+        <button onClick={onProgrammingClick}>Chistes de programación</button>
+      </div>
     {
       bromas.map((broma)=>(
-        <div key = {broma.id}>
+        <div key = {broma.id} className="cards">
           <Card
             type = {broma.type}
             setup = {broma.setup}

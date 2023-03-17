@@ -45,3 +45,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
 	background-color: #005fa3;
 }
+
+@media(max-width:718px){
+  form {align-self: center;max-width: 300px;}
+}

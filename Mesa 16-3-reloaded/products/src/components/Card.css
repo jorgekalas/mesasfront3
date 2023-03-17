@@ -93,3 +93,10 @@ button:hover {
 .btn-remove:hover {
 	background-color: #4f0707;
 }
+
+
+@media(max-width:718px){
+    .card {align-self: center; max-width: 300px;}
+    span{visibility: hidden;}
+  }
+  

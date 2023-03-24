@@ -1,0 +1,22 @@
+.hotelCard{
+    border: 1px solid #FFF;
+    border-radius:25px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 50%;
+    max-height: 80vh;
+    overflow: hidden;
+    position: relative;
+    left: 20%;
+}
+
+
+.cardDescription{
+    max-width: 50%;
+}
+
+button {
+    margin-top: 1rem;
+}

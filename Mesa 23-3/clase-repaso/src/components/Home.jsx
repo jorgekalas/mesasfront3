@@ -21,7 +21,7 @@ const Home = () => {
 					<th>Email</th>
 					<th>Imagen</th>
 				</tr>
-                </thead>
+            </thead>
 			<tbody>
 				{hoteles.map((hotel) => (
 					<tr key={hotel.name}>
@@ -34,9 +34,13 @@ const Home = () => {
 						{hotel.air_conditioned?<td>Si</td>:<td>No</td>}
 						<td>{hotel.phone}</td>
 						<td>{hotel.email}</td>
-                        <Link to={`/details/${hotel.name}`}>
-                            <td><img className="hotelImage" src={hotel.img} alt="hotel_image" /></td>
-                        </Link>
+                            <td style={{display:'flex', flexDirection:'column', placeItems: 'center'}}>
+                                <img className="hotelImage" src={hotel.img} alt="hotel_image" />
+                                <Link to={`/details/${hotel.name}`}>
+                                    <button style={{alignSelf:'center'}}>Ver detalles</button>
+                                </Link>
+                                </td>
+
 					</tr>
 				))}
             </tbody>
